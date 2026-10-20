@@ -387,8 +387,6 @@ See [CREDITS.md](CREDITS.md) for the full list. In particular:
   the verify/persistence work.
 - [**cachenetics/170tune**](https://github.com/cachenetics/170tune) for the
   original tuning/qualification harness and its receipt-based persistence model.
-- [**Hawk132000**](https://github.com/Hawk132000) for the standalone repository,
-  documentation, and maintenance.
 - [**NVIDIA**](https://github.com/NVIDIA/open-gpu-kernel-modules) for the open GPU
   kernel modules and GSP firmware. NVIDIA components remain under their own
   licenses.

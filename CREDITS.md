@@ -18,7 +18,6 @@ the project license; this file records attribution and does not change it.
 |---|---|
 | [vektorprime](https://github.com/vektorprime) | Original fork work: FBPA PLL/MEM integration for 170tune, the `cmpalign` full-size BAR1 helper, the experimental BAR1 P2P patch stack, and persistent P2P install/verify behavior. |
 | [vektorprime/170tune](https://github.com/vektorprime/170tune) | Fork-specific 170tune integration, profiles, and validation used with the FBPA windows opened by this repository. |
-| [Hawk132000](https://github.com/Hawk132000) | Standalone repository import, documentation, and maintenance. |
 
 ## Additional upstream and related work
 
