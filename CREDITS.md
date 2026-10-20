@@ -16,19 +16,23 @@ the project license; this file records attribution and does not change it.
 
 | Who | Contribution |
 |---|---|
-| [vektorprime](https://github.com/vektorprime) | FBPA PLL/MEM integration for 170tune, the `cmpalign` full-size BAR1 helper, the experimental BAR1 P2P patch stack, persistent P2P install/verify behavior, and this documentation. |
+| [vektorprime](https://github.com/vektorprime) | Original fork work: FBPA PLL/MEM integration for 170tune, the `cmpalign` full-size BAR1 helper, the experimental BAR1 P2P patch stack, and persistent P2P install/verify behavior. |
 | [vektorprime/170tune](https://github.com/vektorprime/170tune) | Fork-specific 170tune integration, profiles, and validation used with the FBPA windows opened by this repository. |
+| [Hawk132000](https://github.com/Hawk132000) | Standalone repository import, documentation, and maintenance. |
 
 ## Additional upstream and related work
 
 | Who | Contribution |
 |---|---|
 | [cachenetics/170tune](https://github.com/cachenetics/170tune) | Original 170tune tuning and qualification harness (MIT): SM/HBM levers, integrity gates, and the receipt/persistence model. |
-| Humvee55 ([duggasco](https://github.com/duggasco)) | Mailbox P2P transport, late-PMA region guard, and `--no-gen2` work in the related cmpunlocker lineage. |
-| bendy2 | PCIe Gen2 retrain through a BAR0 `ioremap` in the driver, merged upstream as PR #18. |
-| IriKa | ECC limiting work for the CMP 170HX. |
+| [Humvee55 / duggasco](https://github.com/duggasco) | Mailbox P2P transport, late-PMA region guard, and `--no-gen2` work in the related cmpunlocker lineage. |
+| [bendy2](https://github.com/bendy2) | PCIe Gen2 retrain through a BAR0 `ioremap` in the driver, merged upstream as PR #18. |
+| [IriKa](https://github.com/IRIKA) | ECC limiting work for the CMP 170HX. |
 | [lesj0610](https://github.com/lesj0610) | GPU profiling. |
-| Arman Rafiee, MeatKO, kira-ariaki, tehroot | Additional code and documentation contributions recorded in the repository history. |
+| [Arman Rafiee](https://github.com/armand0e) | Late-PMA reserved-region guard and RM thread-state timeout fixes. |
+| [MeatKO](https://github.com/MeatKO) | DKMS removal mechanism. |
+| [kira-ariaki](https://github.com/kira-ariaki) | Inventory reconciliation and journal-based log fallback in `verify.sh`. |
+| [tehroot](https://github.com/tehroot) | PCIe Gen2 patch hunk-header correction. |
 | [ProjectPhysX](https://github.com/ProjectPhysX/OpenCL-Benchmark) | OpenCL-Benchmark, used for the original performance results. |
 
 ## NVIDIA components

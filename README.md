@@ -114,7 +114,7 @@ width.
 ## Quick start
 
 ```bash
-git clone https://github.com/vektorprime/cmpunlocker.git
+git clone https://github.com/Hawk132000/cmpunlocker.git
 cd cmpunlocker
 
 # Basic unlock, automatic 8 GB / 10 GB profile detection
@@ -375,17 +375,23 @@ separate branch from unrelated hardware experiments.
 
 See [CREDITS.md](CREDITS.md) for the full list. In particular:
 
-- **Amogh Munikote** and the cmpunlocker contributors for the upstream project,
-  the unlock patch set, and the P2P research branch.
-- **asm64-hooligan** for the FBPA PLL/MEM windows and the BAR1 command-line
-  approach.
-- **bayley** for BAR1 P2P research and real-transfer testing.
-- **vektorprime** for this fork, the FBPA/170tune integration, the `cmpalign`
-  helper, the P2P patch stack, and the verify/persistence work.
-- **cachenetics/170tune** for the original tuning/qualification harness and its
-  receipt-based persistence model.
-- **NVIDIA** for the open GPU kernel modules and GSP firmware. NVIDIA components
-  remain under their own licenses.
+- [**Amogh Munikote**](https://github.com/amoghmunikote) and the cmpunlocker
+  contributors for the upstream project, the unlock patch set, and the P2P
+  research branch.
+- [**asm64-hooligan**](https://github.com/asm64-hooligan) for the FBPA PLL/MEM
+  windows and the BAR1 command-line approach.
+- [**bayley**](https://github.com/bayley) for BAR1 P2P research and real-transfer
+  testing.
+- [**vektorprime**](https://github.com/vektorprime) for the original fork work,
+  the FBPA/170tune integration, the `cmpalign` helper, the P2P patch stack, and
+  the verify/persistence work.
+- [**cachenetics/170tune**](https://github.com/cachenetics/170tune) for the
+  original tuning/qualification harness and its receipt-based persistence model.
+- [**Hawk132000**](https://github.com/Hawk132000) for the standalone repository,
+  documentation, and maintenance.
+- [**NVIDIA**](https://github.com/NVIDIA/open-gpu-kernel-modules) for the open GPU
+  kernel modules and GSP firmware. NVIDIA components remain under their own
+  licenses.
 
 ## License
 
